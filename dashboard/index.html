@@ -259,7 +259,7 @@
 
     async function fetchAIOData() {
       const ledUrl = `https://io.adafruit.com/api/v2/${username}/feeds/light-status/data/last`;
-const motionUrl = `https://io.adafruit.com/api/v2/${username}/feeds/motion-status/data/last`;
+      const motionUrl = `https://io.adafruit.com/api/v2/${username}/feeds/motion-status/data/last`;
 
       try {
         const ledRes = await fetch(ledUrl, { headers: { "X-AIO-Key": key } });
