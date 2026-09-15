@@ -17,16 +17,16 @@ A web-based dashboard for real-time monitoring of an IoT smart lighting and secu
 
 - Wokwi Circuit
 
-![wokwi circuit](live_screenshots/wokwi circuit.png)
+![wokwi circuit](live_screenshots/wokwi_circuit.png)
 
 - Standby Dashboard
 
-![Standby Dashboard](live_screenshots/dashboard standby mode.png)
+![Standby Dashboard](live_screenshots/dashboard_standby_mode.png)
 
 - Active Dashboard
 
-![Active Dashboard](live_screenshots/dashboard active mode.png)
+![Active Dashboard](live_screenshots/dashboard_active_mode.png)
 
 - Detected Dashboard
 
-![Detected Dashboard](live_screenshots/dashboard detected mode.png)
+![Detected Dashboard](live_screenshots/dashboard_detected_mode.png)
