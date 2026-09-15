@@ -277,13 +277,13 @@
           const iconBox = document.getElementById("motion-icon");
           const currentMotionState = motionData.value;
           
-          if (currentMotionState == "1") {
+          if (currentMotionState === "DETECTED") {
             motionEl.innerText = "DETECTED";
             motionEl.style.color = "var(--danger-red)";
             iconBox.style.background = "rgba(238, 93, 80, 0.1)";
             iconBox.style.color = "var(--danger-red)";
-          } else {
-            motionEl.innerText = "CLEAR";
+          } else if (currentMotionState === "CLEAR" || currentMotionState === "STANDBY") {
+            motionEl.innerText = currentMotionState; // Will display CLEAR or STANDBY
             motionEl.style.color = "var(--success-green)";
             iconBox.style.background = "rgba(5, 205, 153, 0.1)";
             iconBox.style.color = "var(--success-green)";
