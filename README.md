@@ -10,8 +10,10 @@ A web-based dashboard for real-time monitoring of an IoT smart lighting and secu
 
 # Live Links
 
-- **Live Dashboard:** [Link to your GitHub Pages URL]
-- **Hardware Simulation:** [Link to your Wokwi project]
+- **Live Dashboard:** radha-joshi.github.io/ilite/
+
+
+- **Hardware Simulation:** https://wokwi.com/projects/473896945764516865
 
 # Project Screenshots
 
